@@ -1,0 +1,40 @@
+li.ft-img img {
+    width: 50px;
+    height: 50px;
+}
+li.ft-img {
+    overflow: hidden;
+	margin: 10px 0;
+}
+span.p-title {
+    margin-left: 10px;
+}
+.my_pst .ft-img a:hover{
+	box-shadow: none;
+	text-decoration: none;
+}
+.dt{
+display: block;
+}
+.dth, .p-title , .ath{
+	font-weight:600;
+}
+.allposts li:nth-child(2),.allposts li:nth-child(3) {
+    display: none;
+}
+.dt-cat{
+	display: block;
+}
+.dt-cat ul, .dt-cat li{
+	
+	display:inline;
+} 
+.dt-cat li{
+	padding:0px !important;
+}
+.dt-cat li::after {
+    content: ' ,';
+}
+.dt-cat li:last-child::after {
+    display: none;
+}
